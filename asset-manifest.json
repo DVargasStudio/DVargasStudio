@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/grramp.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/grramp.github.io/static/js/main.83628456.js",
-    "static/js/787.27a09e28.chunk.js": "/grramp.github.io/static/js/787.27a09e28.chunk.js",
-    "static/media/logo.svg": "/grramp.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/grramp.github.io/index.html",
-    "main.073c9b0a.css.map": "/grramp.github.io/static/css/main.073c9b0a.css.map",
-    "main.83628456.js.map": "/grramp.github.io/static/js/main.83628456.js.map",
-    "787.27a09e28.chunk.js.map": "/grramp.github.io/static/js/787.27a09e28.chunk.js.map"
+    "main.css": "/DVargasStudio/static/css/main.073c9b0a.css",
+    "main.js": "/DVargasStudio/static/js/main.315889ac.js",
+    "static/js/787.27a09e28.chunk.js": "/DVargasStudio/static/js/787.27a09e28.chunk.js",
+    "static/media/logo.svg": "/DVargasStudio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DVargasStudio/index.html",
+    "main.073c9b0a.css.map": "/DVargasStudio/static/css/main.073c9b0a.css.map",
+    "main.315889ac.js.map": "/DVargasStudio/static/js/main.315889ac.js.map",
+    "787.27a09e28.chunk.js.map": "/DVargasStudio/static/js/787.27a09e28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.83628456.js"
+    "static/js/main.315889ac.js"
   ]
 }
