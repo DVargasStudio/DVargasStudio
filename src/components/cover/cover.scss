@@ -1,0 +1,46 @@
+@import './../../variables.scss';
+
+.Cover{
+    display: flex;
+    justify-content: right;
+    height: 123vh;
+    background-image: url(../../assets/imgs/Cover.png);
+    background-color: $color-white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.Cover-Title {
+    padding-top: 25vh;
+    text-align: center;
+    text-shadow: -1.5px -1.5px $color-white, 1.5px 1.5px $color-white, 1.5px -1.5px $color-white, -1.5px 1.5px $color-white; 
+}
+
+.Space{
+    width: 600px;
+}
+
+
+@media (min-aspect-ratio: 20/9){
+    .Cover{
+        height: 133vh;
+    }
+    .Space{
+        width: 40%;
+    }
+}
+
+@media (max-aspect-ratio: 10/16), (max-width: 900px){
+    .Cover{
+        height: 105vh;
+        justify-content: center;
+    }
+    .Cover-Title {
+        padding-top: 5vh;
+    }
+    .Space {
+        width: 0;
+    }
+}
+

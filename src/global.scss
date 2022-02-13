@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+@font-face {
+    font-family: 'Bison';
+    src: local('Bison'), url(./assets/fonts/Bison.ttf) format('truetype');
+}
+
+* {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,  h2 {
+    font-family: Bison;
+    font-size: 8.5em;
+    color: $color-primary;
+}
+
+h2 {
+   font-size: 5em;
+}
+
+//portrait
+@media (max-aspect-ratio: 10/16), (max-width: 900px){
+    *{
+        font-size:7px;
+    }
+}
