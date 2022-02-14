@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/DVargasStudio/static/css/main.b9f71eb2.css",
-    "main.js": "/DVargasStudio/static/js/main.a7278c18.js",
+    "main.css": "/DVargasStudio/static/css/main.98643652.css",
+    "main.js": "/DVargasStudio/static/js/main.ec959509.js",
+    "static/media/Bodelé-1.png": "/DVargasStudio/static/media/Bodelé-1.6ef10495590f568dd7fe.png",
     "static/media/Cover.png": "/DVargasStudio/static/media/Cover.da353fe1321cb601e273.png",
     "static/media/Bison.ttf": "/DVargasStudio/static/media/Bison.586948d0258a1cde5270.ttf",
+    "static/media/Design-Icon.svg": "/DVargasStudio/static/media/Design-Icon.4c9c2288eb70c9952e2c.svg",
+    "static/media/Dev-Icon.svg": "/DVargasStudio/static/media/Dev-Icon.5334139f55f971cf6430.svg",
+    "static/media/Marketing-Icon.svg": "/DVargasStudio/static/media/Marketing-Icon.89b50bca88042dc8fda5.svg",
     "index.html": "/DVargasStudio/index.html",
-    "main.b9f71eb2.css.map": "/DVargasStudio/static/css/main.b9f71eb2.css.map",
-    "main.a7278c18.js.map": "/DVargasStudio/static/js/main.a7278c18.js.map"
+    "main.98643652.css.map": "/DVargasStudio/static/css/main.98643652.css.map",
+    "main.ec959509.js.map": "/DVargasStudio/static/js/main.ec959509.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9f71eb2.css",
-    "static/js/main.a7278c18.js"
+    "static/css/main.98643652.css",
+    "static/js/main.ec959509.js"
   ]
 }
