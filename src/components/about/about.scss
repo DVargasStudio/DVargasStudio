@@ -1,0 +1,50 @@
+@import './../../variables.scss';
+
+#About{
+    background-color: $color-white;
+    padding: 0 7vw;
+    text-align: center;
+}
+
+#About-Title{
+    padding:3% 0 ;
+}
+
+.About-Content {
+    text-align: left;
+    display: flex;
+    gap: 7%;
+    align-items:flex-end;
+}
+
+.About-Image{
+    pointer-events: none;
+    user-select: none;
+    height: fit-content;
+    max-width: 50%;
+}
+
+.About-Text{
+    max-width: 50%;
+    margin: 0 6% 5% 0;
+}
+
+@media (max-aspect-ratio: 10/16), (max-width: 1280px){
+    #About-Title{
+        padding:6% 0 10% 0;
+    }
+    .About-Content{
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    
+    .About-Image{
+        height: fit-content;
+        max-width: 100%;
+    }
+
+    .About-Text{
+        max-width: 100%;
+        margin: 0 0 4% 0;
+    }
+}

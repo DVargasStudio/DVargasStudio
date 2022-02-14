@@ -1,8 +1,6 @@
 @import './../../variables.scss';
 
-.Cover{
-    display: flex;
-    justify-content: right;
+#Cover{
     height: 123vh;
     background-image: url(../../assets/imgs/Cover.png);
     background-color: $color-white;
@@ -11,35 +9,58 @@
     background-position: right bottom;
 }
 
+.Cover-main{
+    height: 91%;
+    display: flex;
+    justify-content: right;
+}
+
 .Cover-Title {
     padding-top: 25vh;
     text-align: center;
     text-shadow: -1.5px -1.5px $color-white, 1.5px 1.5px $color-white, 1.5px -1.5px $color-white, -1.5px 1.5px $color-white; 
 }
 
-.Space{
-    width: 600px;
+.Cover-Space{
+    width: 650px;
+}
+
+.Cover-Slogan{
+    height: 9%;
+}
+
+.Cover-Text-White {
+    color: $color-white;
+    text-align: center;
 }
 
 
 @media (min-aspect-ratio: 20/9){
-    .Cover{
+    #Cover{
         height: 133vh;
     }
-    .Space{
+    .Cover-Space{
         width: 40%;
+    }
+    .Cover-main{
+        height: 88%;
+    }
+    .Cover-Slogan{
+        height: 12%;
     }
 }
 
-@media (max-aspect-ratio: 10/16), (max-width: 900px){
-    .Cover{
+@media (max-aspect-ratio: 10/16), (max-width: 768px){
+    #Cover{
         height: 105vh;
+    }
+    .Cover-main{
         justify-content: center;
     }
     .Cover-Title {
         padding-top: 5vh;
     }
-    .Space {
+    .Cover-Space {
         width: 0;
     }
 }

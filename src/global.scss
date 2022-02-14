@@ -6,24 +6,65 @@
 }
 
 * {
-    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-}
-
-h1,  h2 {
-    font-family: Bison;
-    font-size: 8.5em;
     color: $color-primary;
 }
 
-h2 {
-   font-size: 5em;
+h1,  h2, h3 {
+    font-family: Bison;
+    font-size: 4em;
 }
 
-//portrait
-@media (max-aspect-ratio: 10/16), (max-width: 900px){
+h2 {
+   font-size: 2.5em;
+}
+
+h3
+{
+    font-size: 1.8em;
+}
+
+//mobile
+@media (max-width: 480px){
     *{
-        font-size:7px;
+        font-size:14px;
+    }
+    h1{
+        font-size: 3em;
     }
 }
+
+//tablet
+@media (min-width: 481px){
+    *{
+        font-size:18px;
+    }
+    h1{
+        font-size: 3.3em;
+    }
+}
+
+//desktop
+@media (min-width: 769px){
+    *{
+        font-size:28px;
+    }
+}
+
+@media (min-width: 1280px){
+    h1{
+        font-size: 3.6em;
+    }
+}
+
+@media (min-width: 1600px){
+    *{
+        font-size:32px;
+    }
+}
+
+
+
+

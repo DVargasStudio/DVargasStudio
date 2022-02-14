@@ -1,0 +1,119 @@
+@import './../../variables.scss';
+#Services{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.Services-Border{
+    pointer-events: none;
+    user-select: none;
+    margin: -28px 0 0 0;
+    height: 61px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Services-Content{
+    text-align: center;
+    margin: -10px 0 0 0;
+    background-color: $color-primary;
+    padding: 3%;
+    
+}
+
+.Services-Content-Text{
+    max-width: 774px;
+    padding: 3% 0 4% 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Services-Text-Left{
+    text-align: justify;
+}
+
+.Services-Text-Left::before {
+    display:inline-block;
+    content: ' ';
+    vertical-align: middle;
+    white-space: pre;
+    margin-left: -5em;
+    margin-right: 2em;
+    background-image: url('./../../assets/svgs/Dev-Icon.svg');
+    background-size: 3em 3em;
+    height: 3em;
+    width: 3em;
+  }
+
+.Services-Text-Left2{
+    text-align: justify;
+    letter-spacing: 0.81px;
+}
+
+.Services-Text-Left2::before {
+    display:inline-block;
+    content: ' ';
+    vertical-align: middle;
+    white-space: pre;
+    margin-left: -5em;
+    margin-right: 2em;
+    background-image: url('./../../assets/svgs/Marketing-Icon.svg');
+    background-size: 3em 3em;
+    height: 3em;
+    width: 3em;
+  }
+
+.Services-Text-Right{
+    text-align: right;
+}
+
+.Services-Text-Right::after {
+    display:inline-block;
+    content: ' ';
+    vertical-align: middle;
+    white-space: pre;
+    margin-right: -5em;
+    margin-left: 2em;
+    background-image: url('./../../assets/svgs/Design-Icon.svg');
+    background-size: 3em 3em;
+    height: 3em;
+    width: 3em;
+  }
+
+.Services-Content h1, .Services-Content h3, .Services-Content p{
+    color: $color-white;
+}
+
+.Services-Content p{
+    padding: 6% 3%;
+}
+
+@media (max-width: 1600px){
+    .Services-Content-Text{
+        max-width: 680px;
+        
+    }
+    
+    .Services-Text-Left{
+        text-align: justify;
+    }
+    
+    .Services-Text-Left2{
+        text-align: justify;
+        letter-spacing: 0.75px;
+    }
+    
+    .Services-Text-Right{
+        text-align: right;
+    }
+}
+
+@media (max-width: 1280px){
+    .Services-Text-Left, .Services-Text-Left2, .Services-Text-Right{
+        text-align: center;
+        letter-spacing: normal;
+    }
+}
+
