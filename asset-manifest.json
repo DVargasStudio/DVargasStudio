@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/DVargasStudio/static/css/main.98643652.css",
-    "main.js": "/DVargasStudio/static/js/main.ec959509.js",
+    "main.css": "/DVargasStudio/static/css/main.bff72540.css",
+    "main.js": "/DVargasStudio/static/js/main.5d6a322e.js",
     "static/media/Bodelé-1.png": "/DVargasStudio/static/media/Bodelé-1.6ef10495590f568dd7fe.png",
+    "static/media/Logo.png": "/DVargasStudio/static/media/Logo.1e0e99ebb1267fc355ad.png",
     "static/media/Cover.png": "/DVargasStudio/static/media/Cover.da353fe1321cb601e273.png",
     "static/media/Bison.ttf": "/DVargasStudio/static/media/Bison.586948d0258a1cde5270.ttf",
+    "static/media/Facebook-Icon.svg": "/DVargasStudio/static/media/Facebook-Icon.0026b972cb1cc5f77cdfe4b1eedbf637.svg",
+    "static/media/Instagram-Icon.svg": "/DVargasStudio/static/media/Instagram-Icon.aac385864637f9749542401b794290cb.svg",
+    "static/media/Whatsapp-Icon.svg": "/DVargasStudio/static/media/Whatsapp-Icon.cc311aa05a1360caf7b9d777faa07068.svg",
     "static/media/Design-Icon.svg": "/DVargasStudio/static/media/Design-Icon.4c9c2288eb70c9952e2c.svg",
     "static/media/Dev-Icon.svg": "/DVargasStudio/static/media/Dev-Icon.5334139f55f971cf6430.svg",
     "static/media/Marketing-Icon.svg": "/DVargasStudio/static/media/Marketing-Icon.89b50bca88042dc8fda5.svg",
+    "static/media/Youtube-Icon.svg": "/DVargasStudio/static/media/Youtube-Icon.21f935ff707a6542f73ab7ccd73bb1b9.svg",
     "index.html": "/DVargasStudio/index.html",
-    "main.98643652.css.map": "/DVargasStudio/static/css/main.98643652.css.map",
-    "main.ec959509.js.map": "/DVargasStudio/static/js/main.ec959509.js.map"
+    "main.bff72540.css.map": "/DVargasStudio/static/css/main.bff72540.css.map",
+    "main.5d6a322e.js.map": "/DVargasStudio/static/js/main.5d6a322e.js.map"
   },
   "entrypoints": [
-    "static/css/main.98643652.css",
-    "static/js/main.ec959509.js"
+    "static/css/main.bff72540.css",
+    "static/js/main.5d6a322e.js"
   ]
 }
