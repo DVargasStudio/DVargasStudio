@@ -1,0 +1,16 @@
+@import './../../variables.scss';
+
+#Packs{
+    padding: 2% 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.Packs-Start{
+    height: 20%;
+}
+
+.Packs-Standard{
+    height: 80%;
+    background-color: $color-green;
+}

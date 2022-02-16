@@ -9,7 +9,7 @@
     background-position: right bottom;
 }
 
-.Cover-main{
+.Cover-Main{
     height: 91%;
     display: flex;
     justify-content: right;
@@ -22,7 +22,8 @@
 }
 
 .Cover-Space{
-    width: 650px;
+    width: 30%;
+    min-width: 400px;
 }
 
 .Cover-Slogan{
@@ -39,10 +40,7 @@
     #Cover{
         height: 133vh;
     }
-    .Cover-Space{
-        width: 40%;
-    }
-    .Cover-main{
+    .Cover-Main{
         height: 88%;
     }
     .Cover-Slogan{
@@ -54,7 +52,7 @@
     #Cover{
         height: 105vh;
     }
-    .Cover-main{
+    .Cover-Main{
         justify-content: center;
     }
     .Cover-Title {
@@ -62,6 +60,23 @@
     }
     .Cover-Space {
         width: 0;
+        min-width: 0;
+    }
+}
+
+@media (min-aspect-ratio: 16/10) and (max-width: 768px){
+    #Cover{
+        height: 133vh;
+    }
+    .Cover-Main{
+        justify-content: center;
+    }
+    .Cover-Title {
+        padding-top: 25vh;
+    }
+    .Cover-Space {
+        width: 15%;
+        min-width: 0;
     }
 }
 
