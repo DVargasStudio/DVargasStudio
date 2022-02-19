@@ -1,7 +1,29 @@
 @import './../../variables.scss';
 
 #Footer{
-    padding: 2%;
-    height: 6vh;
+    padding: 1.5%;
+    height: auto;
     background-color: $color-primary;
+}
+
+.Footer-Bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2%;
+    gap: 0.75em;
+}
+
+.Footer-Bar a img{
+    height: 1em;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.Footer-White-Text {
+    padding: 0 0 0.5% 0;
+    text-align: center;
+    font-size: 0.7em;
+    color: $color-white;
 }

@@ -5,13 +5,17 @@
     width: auto;
 }
 
-.Services-Border{
+.Services-Border, .Services-Border2{
     pointer-events: none;
     user-select: none;
     margin: -28px 0 0 0;
     height: 61px;
     width: 100%;
     object-fit: cover;
+}
+
+.Services-Border2 {
+    margin: -10px 0 0 0;
 }
 
 .Services-Content{
@@ -110,10 +114,27 @@
     }
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1279px){
     .Services-Text-Left, .Services-Text-Left2, .Services-Text-Right{
         text-align: center;
         letter-spacing: normal;
+    }
+    .Services-Text-Left::before, .Services-Text-Left2::before, .Services-Text-Right::after{
+        height: 2em;
+        width: 2em;
+        margin-right: 1em;
+        margin-left: -4em;
+        background-size: 2em 2em;
+    }
+    .Services-Text-Right::after{
+        margin-right: -4em;
+        margin-left: 1em; 
+    }
+}
+
+@media (max-width: 768px){
+    .Services-Text-Left::before, .Services-Text-Left2::before, .Services-Text-Right::after{
+        display: none;
     }
 }
 

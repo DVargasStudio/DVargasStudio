@@ -1,5 +1,6 @@
 import './services.scss';
-import border1 from './../../assets/imgs/Border1.png';
+import border1 from './../../assets/svgs/Border1.svg';
+import border2 from './../../assets/svgs/Border2.svg';
 
 export default function Services() {
   return (
@@ -14,7 +15,7 @@ export default function Services() {
             </div>
             <h3>ADAPTE A SUA DEMANDA</h3>
         </div>
-        <div class="Services-Border2"></div>
+        <img src={border2} alt="" class="Services-Border2"/>
     </div>
   )
 }

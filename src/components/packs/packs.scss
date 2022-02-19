@@ -1,16 +1,65 @@
 @import './../../variables.scss';
 
 #Packs{
-    padding: 2% 0;
+    padding: 0 0;
     height: 100vh;
     text-align: center;
 }
 
 .Packs-Start{
-    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 3.5% 0 0;
+    gap: 10%
+}
+
+.Packs-Start div{
+    width: 16.5%;
+}
+
+
+.Packs-Start div img{
+    height: 1.85em;
+}
+
+.Packs-Button{
+    user-select: none;
+    margin-top: 10%;
+    font-size: 1.3em;
+    color: $color-white;
+    padding: 10% 0;
+    background-color: #000;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+#Packs-Basic{
+    background-color: $color-green;
+}
+
+#Packs-Advanced{
+    background-color: $color-red;
+}
+
+#Packs-Supreme{
+    background-color: $color-blue;
+}
+
+#Packs-Basic:hover{
+    background-color: $color-green-darker;
+}
+
+#Packs-Advanced:hover{
+    background-color: $color-red-darker;
+}
+
+#Packs-Supreme:hover{
+    background-color: $color-blue-darker;
 }
 
 .Packs-Standard{
-    height: 80%;
+
     background-color: $color-green;
 }
