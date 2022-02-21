@@ -14,11 +14,12 @@ html {
     margin: 0;
     padding: 0;
     color: $color-primary;
+    font-size: 3.5vw;
 }
 
-h1,  h2, h3 {
+h1,  h2, h3, h4, h5, h6 {
     font-family: Bison;
-    font-size: 4em;
+    font-size: 3.95em;
 }
 
 h2 {
@@ -30,81 +31,55 @@ h3
     font-size: 1.8em;
 }
 
+h4{
+    font-size: 1.3em;
+}
+
+h5{
+    font-size: 1.1em;
+}
+
+h6{
+    font-size: 0.9em;
+}
+
 img{
+    pointer-events: none;
     user-select: none;
 }
 
-//mobile
-@media (max-width: 480px){
+@media (min-aspect-ratio: 1/2){
     *{
-        font-size:14px;
-    }
-    h1{
-        font-size: 3em;
-    }
-    h2{
-        font-size: 2.1em;
-    }
-    h3
-    {
-        font-size: 1.6em;
+        font-size: 3.5vw;
     }
 }
 
-//tablet
-@media (min-width: 481px){
+@media (min-aspect-ratio: 10/16){
     *{
-        font-size:16px;
-    }
-    h1{
-        font-size: 3.15em;
-    }
-    h2{
-        font-size: 2.3em;
-    }
-    h3
-    {
-        font-size: 1.7em;
+        font-size: 3.3vw;
     }
 }
 
-//desktop
-@media (min-width: 769px){
+@media (min-aspect-ratio: 3/4){
     *{
-        font-size:24px;
-    }
-    h1{
-        font-size: 3.6em;
-    }
-    h2 {
-        font-size: 2.5em;
-    }   
-    h3 {
-        font-size: 1.8em;
+        font-size: 2.5vw;
     }
 }
 
-@media (min-width: 1280px){
+@media (min-aspect-ratio: 4/3){
     *{
-        font-size:28px;
-    }
-    h1{
-        font-size: 3.6em;
-    }
-    h2 {
-        font-size: 2.5em;
-    }   
-    h3 {
-        font-size: 1.8em;
+        font-size: 2.1vw;
     }
 }
 
-@media (min-width: 1600px){
+@media (min-aspect-ratio: 16/10){
     *{
-        font-size:32px;
+        font-size: 1.8vw;
     }
 }
 
-
-
-
+@media (min-aspect-ratio: 2/1){
+    *{
+        font-size: 1.6vw;
+    }
+}

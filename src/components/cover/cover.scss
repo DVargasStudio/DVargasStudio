@@ -12,71 +12,60 @@
 .Cover-Main{
     height: 91%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .Cover-Title {
-    padding-top: 25vh;
+    padding-top: 6.5vh;
     text-align: center;
     text-shadow: -1.5px -1.5px $color-white, 1.5px 1.5px $color-white, 1.5px -1.5px $color-white, -1.5px 1.5px $color-white; 
 }
 
 .Cover-Space{
-    width: 30%;
-    min-width: 400px;
+    display: none;
+    width: 0%;
 }
 
-.Cover-Slogan{
-    height: 9%;
-}
 
 .Cover-Text-White {
     color: $color-white;
     text-align: center;
 }
 
-
-@media (min-aspect-ratio: 20/9){
-    #Cover{
-        height: 133vh;
+@media (min-aspect-ratio: 3/4){
+    .Cover-Space{
+        display: initial;
+        width: 50%;
     }
     .Cover-Main{
-        height: 88%;
+        justify-content: right;
     }
-    .Cover-Slogan{
-        height: 12%;
-    }
-}
 
-@media (max-aspect-ratio: 10/16), (max-width: 768px){
-    #Cover{
-        height: 105vh;
-    }
-    .Cover-Main{
-        justify-content: center;
-    }
-    .Cover-Title {
-        padding-top: 5vh;
-    }
-    .Cover-Space {
-        width: 0;
-        min-width: 0;
-    }
-}
-
-@media (min-aspect-ratio: 16/10) and (max-width: 768px){
-    #Cover{
-        height: 133vh;
-    }
-    .Cover-Main{
-        justify-content: center;
-    }
-    .Cover-Title {
+    .Cover-Title{
         padding-top: 25vh;
     }
-    .Cover-Space {
-        width: 15%;
-        min-width: 0;
+}
+
+@media (min-aspect-ratio: 4/3){
+    .Cover-Space{
+        width: 35%;
     }
 }
 
+@media (min-aspect-ratio: 16/10){
+    .Cover-Space{
+        width: 30%;
+    }
+}
+
+@media (min-aspect-ratio: 2/1){
+    .Cover-Space{
+        width: 28%;
+    }
+}
+
+@media (max-width: 768px){
+    .Cover-Title {
+        text-shadow: -0.75px -0.75px $color-white, 0.75px 0.75px $color-white, 0.75px -0.75px $color-white, -0.75px 0.75px $color-white; 
+    }
+}

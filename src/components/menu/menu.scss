@@ -9,6 +9,7 @@ a{
     position: fixed;
     align-items: center;
     z-index: 2;
+    pointer-events: none;
 
     .Menu-Wrapper{
         display: flex;
@@ -23,6 +24,7 @@ a{
         border-radius: 0.2em;
         padding: 0.5% 1%;
         height: 2%;
+        pointer-events: auto;
     }
     
     .Menu-Logo img{
@@ -38,6 +40,8 @@ a{
         border-radius: 0.2em;
         padding: 0.5% 1%;
         height: 2%;
+        pointer-events: auto;
+        align-items: center;
     }
     
     .Menu-Bar a img{
@@ -88,11 +92,34 @@ a{
             }
         }
     }
-}
 
+    @media (max-aspect-ratio: 3/4){
+        
+        .Menu-Wrapper{
+            margin: 0;
+        }
 
-@media (max-aspect-ratio: 3/4){
-    .Menu-Logo img{
-        height: 5vh;
+        .Menu-Logo img{
+            height: 5vh;
+        }
+
+        .Menu-Bar{
+            height: 5vh;
+            gap: 1.2em;
+        }
+
+        .Menu-Bar a img{
+            height: 1.8em;
+            vertical-align: middle;
+            user-select: none;
+        }
+
+        .Menu-Hamburger{
+            padding: 0.5em 0.4em;
+            height: 0.8em;
+            width: 1em;
+        }
+        
     }
+
 }
