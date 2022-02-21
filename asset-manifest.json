@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/DVargasStudio/static/css/main.fe2ea6ff.css",
-    "main.js": "/DVargasStudio/static/js/main.d10348f5.js",
+    "main.css": "/DVargasStudio/static/css/main.74852d03.css",
+    "main.js": "/DVargasStudio/static/js/main.4b702f5b.js",
     "static/media/Bodelé-1.png": "/DVargasStudio/static/media/Bodelé-1.6ef10495590f568dd7fe.png",
     "static/media/Logo.png": "/DVargasStudio/static/media/Logo.1e0e99ebb1267fc355ad.png",
     "static/media/Cover.png": "/DVargasStudio/static/media/Cover.da353fe1321cb601e273.png",
     "static/media/Bison.ttf": "/DVargasStudio/static/media/Bison.586948d0258a1cde5270.ttf",
     "static/media/Facebook-Icon.svg": "/DVargasStudio/static/media/Facebook-Icon.0026b972cb1cc5f77cdfe4b1eedbf637.svg",
     "static/media/Supremo-Icon.svg": "/DVargasStudio/static/media/Supremo-Icon.9782f1e19f2038980fc7516410cb15d6.svg",
+    "static/media/Supremo-Icon-W.svg": "/DVargasStudio/static/media/Supremo-Icon-W.623744951376a9e1c47df0e380ec75d4.svg",
     "static/media/Facebook-Icon-W.svg": "/DVargasStudio/static/media/Facebook-Icon-W.2934efdec698ebd4f22d004277e52ee2.svg",
     "static/media/Instagram-Icon.svg": "/DVargasStudio/static/media/Instagram-Icon.aac385864637f9749542401b794290cb.svg",
     "static/media/Instagram-Icon-W.svg": "/DVargasStudio/static/media/Instagram-Icon-W.b562748587b6af233b94189c163d094e.svg",
@@ -17,17 +18,19 @@
     "static/media/Border1.svg": "/DVargasStudio/static/media/Border1.0a58d896b21530c634cd1de80abdf935.svg",
     "static/media/Dev-Icon.svg": "/DVargasStudio/static/media/Dev-Icon.5334139f55f971cf6430.svg",
     "static/media/Marketing-Icon.svg": "/DVargasStudio/static/media/Marketing-Icon.89b50bca88042dc8fda5.svg",
+    "static/media/Avancado-Icon-W.svg": "/DVargasStudio/static/media/Avancado-Icon-W.f28493f8f5733fced92b47672f33f69a.svg",
     "static/media/Avancado-Icon.svg": "/DVargasStudio/static/media/Avancado-Icon.c94e7cb8a5df5658e7e1b50beb1846df.svg",
     "static/media/Youtube-Icon.svg": "/DVargasStudio/static/media/Youtube-Icon.21f935ff707a6542f73ab7ccd73bb1b9.svg",
     "static/media/Youtube-Icon-W.svg": "/DVargasStudio/static/media/Youtube-Icon-W.0644bc9803693ce86bac9ecf2a44ef9b.svg",
+    "static/media/Basico-Icon-W.svg": "/DVargasStudio/static/media/Basico-Icon-W.edc97f72b50858c3433d59acb9d5cf62.svg",
     "static/media/Basico-Icon.svg": "/DVargasStudio/static/media/Basico-Icon.004d552069f85550c2ae1acbc9c3fcd0.svg",
     "static/media/Border2.svg": "/DVargasStudio/static/media/Border2.58df86831d7e99902dee305ec318d971.svg",
     "index.html": "/DVargasStudio/index.html",
-    "main.fe2ea6ff.css.map": "/DVargasStudio/static/css/main.fe2ea6ff.css.map",
-    "main.d10348f5.js.map": "/DVargasStudio/static/js/main.d10348f5.js.map"
+    "main.74852d03.css.map": "/DVargasStudio/static/css/main.74852d03.css.map",
+    "main.4b702f5b.js.map": "/DVargasStudio/static/js/main.4b702f5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe2ea6ff.css",
-    "static/js/main.d10348f5.js"
+    "static/css/main.74852d03.css",
+    "static/js/main.4b702f5b.js"
   ]
 }
