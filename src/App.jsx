@@ -11,7 +11,6 @@ import Packs from "./components/packs/Packs";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
-
 function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
   return (
