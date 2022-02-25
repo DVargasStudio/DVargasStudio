@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/DVargasStudio/static/css/main.0151d89d.css",
-    "main.js": "/DVargasStudio/static/js/main.375fa3ed.js",
+    "main.css": "/DVargasStudio/static/css/main.7c7c4b7c.css",
+    "main.js": "/DVargasStudio/static/js/main.7570ece3.js",
+    "static/media/video1.mp4": "/DVargasStudio/static/media/video1.e61903e8df43c7ef255e.mp4",
+    "static/media/video2.mp4": "/DVargasStudio/static/media/video2.3ac07e12249c1f62f86d.mp4",
+    "static/media/video3.mp4": "/DVargasStudio/static/media/video3.86598dc241b13c1bf8db.mp4",
     "static/media/Bodelé-1.png": "/DVargasStudio/static/media/Bodelé-1.6ef10495590f568dd7fe.png",
     "static/media/Logo.png": "/DVargasStudio/static/media/Logo.1e0e99ebb1267fc355ad.png",
     "static/media/Cover.png": "/DVargasStudio/static/media/Cover.da353fe1321cb601e273.png",
@@ -26,11 +29,11 @@
     "static/media/Basico-Icon.svg": "/DVargasStudio/static/media/Basico-Icon.004d552069f85550c2ae1acbc9c3fcd0.svg",
     "static/media/Border2.svg": "/DVargasStudio/static/media/Border2.58df86831d7e99902dee305ec318d971.svg",
     "index.html": "/DVargasStudio/index.html",
-    "main.0151d89d.css.map": "/DVargasStudio/static/css/main.0151d89d.css.map",
-    "main.375fa3ed.js.map": "/DVargasStudio/static/js/main.375fa3ed.js.map"
+    "main.7c7c4b7c.css.map": "/DVargasStudio/static/css/main.7c7c4b7c.css.map",
+    "main.7570ece3.js.map": "/DVargasStudio/static/js/main.7570ece3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0151d89d.css",
-    "static/js/main.375fa3ed.js"
+    "static/css/main.7c7c4b7c.css",
+    "static/js/main.7570ece3.js"
   ]
 }
