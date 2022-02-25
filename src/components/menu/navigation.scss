@@ -36,6 +36,7 @@
 
 @media (max-aspect-ratio: 4/3) {
     #Navigation {
+        overflow: hidden;
         width: 100%;
         right: calc(-100% + -9px);
         ul li {

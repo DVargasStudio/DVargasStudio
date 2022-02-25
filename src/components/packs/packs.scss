@@ -33,11 +33,21 @@
     background-color: $color-primary;
     border-radius: 0.4em;
     cursor: pointer;
+    transition: background-color ease 200ms;
+}
+
+.Packs-Button:hover{
+    background-color: $color-primary-darker;
 }
 
 .Packs-Dark-Red-Button{
     background-color: $color-dark-red;
 }
+
+.Packs-Dark-Red-Button:hover{
+    background-color: $color-dark-red-darker;
+}
+
 
 
 #Packs-Basic, #Packs-Advanced, #Packs-Supreme {

@@ -18,7 +18,7 @@
 }
 
 .Contact-Info{
-    margin-bottom: 1.5%;
+    margin-bottom: 2%;
     padding: 4.5% 1.5% 4.5%;
     height: 32vh;
     display: flex;
@@ -51,11 +51,19 @@
 
     input{
         width: 100%;
+        border: solid $color-primary 0.08em;
+        border-radius: 0.2em;
     }
 
     textarea{
         resize: none;
         width: 100%;
+        border: solid $color-primary 0.08em;
+        border-radius: 0.2em;
+    }
+    textarea:focus, input:focus{
+        outline-color:  $color-primary-darker;
+        border-color: $color-primary-darker;
     }
 
     button{
@@ -66,6 +74,7 @@
         cursor: pointer;
         padding: 1% 0;
         border-radius: 0.3em;
+        transition: background-color ease 200ms;
     }
     button:hover{
         background-color: $color-primary-darker;
@@ -76,9 +85,18 @@
     display: none;
 }
 
-@media (max-aspect-ratio: 4/3){
+@media (max-aspect-ratio: 5/6){
 
     .Contact-Content{
-        flex-direction: column;
+        flex-direction:column-reverse;
+    }
+
+    .Contact-Info{
+        width: 95%;
+        margin: 2%;
+        
+        p, h3{
+            margin: 2%;
+        }
     }
 }
