@@ -1,0 +1,43 @@
+@import './../variables.scss';
+
+.PacksPages{
+
+    h1, h2, h4{
+    margin: 5% 0 2%;
+    text-align: center;
+    }
+}
+
+.PacksPages-Content{
+    margin: 0 10% 5%;
+
+    h1, h2{
+        margin: 5% 0 2%;
+        text-align: center;
+    }
+    a h4{
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+    }
+}
+
+.PacksPages-Video{
+    margin: auto;
+    padding: 0.9em 0.9em ;
+    background-color: $color-primary-light;
+    border-radius: 0.2em;
+}
+
+.PacksPages-Button{
+    margin: auto;
+    margin-top: 4%;
+    max-width: 25%;
+    user-select: none;
+    color: $color-white;
+    padding: 3vh 0;
+    background-color: $color-primary;
+    border-radius: 0.4em;
+    cursor: pointer;
+    transition: background-color ease 200ms;
+}

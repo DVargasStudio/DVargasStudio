@@ -1,8 +1,8 @@
-@import './../../variables.scss';
+@import './../../../variables.scss';
 
 #Cover{
     height: 123vh;
-    background-image: url(../../assets/imgs/Cover.png);
+    background-image: url(../../../assets/imgs/Cover.png);
     background-color: $color-white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,15 +10,18 @@
 }
 
 .Cover-Main{
-    height: 91%;
+    height: 90%;
     display: flex;
     justify-content: center;
 }
 
 .Cover-Title {
-    padding-top: 6.5vh;
+    margin-top: 7vh;
     text-align: center;
     text-shadow: -1.5px -1.5px $color-white, 1.5px 1.5px $color-white, 1.5px -1.5px $color-white, -1.5px 1.5px $color-white; 
+    h1{
+        font-size: 3.9em;
+    }
 }
 
 .Cover-Space{
@@ -35,26 +38,36 @@
 @media (min-aspect-ratio: 3/4){
     .Cover-Space{
         display: initial;
-        width: 50%;
+        width: 32em;
     }
     .Cover-Main{
         justify-content: right;
     }
 
     .Cover-Title{
-        padding-top: 25vh;
+        margin-top: 28.25vh;
+
+        h1{
+            font-size: 4.25em;
+        }
     }
 }
 
 @media (min-aspect-ratio: 4/3){
     .Cover-Space{
-        width: 35%;
+        width: 16em;
     }
 }
 
-@media (min-aspect-ratio: 16/10){
+@media (min-aspect-ratio: 16/9){
     .Cover-Space{
-        width: 30%;
+        width: 18em;
+    }
+}
+
+@media (min-aspect-ratio: 32/17){
+    .Cover-Space{
+        width: 15em;
     }
 }
 

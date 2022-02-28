@@ -1,6 +1,6 @@
 import './services.scss';
-import border1 from './../../assets/svgs/Border1.svg';
-import border2 from './../../assets/svgs/Border2.svg';
+import border1 from './../../../assets/svgs/Border1.svg';
+import border2 from './../../../assets/svgs/Border2.svg';
 
 export default function Services() {
   return (

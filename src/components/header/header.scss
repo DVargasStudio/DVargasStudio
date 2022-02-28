@@ -1,0 +1,28 @@
+@import './../../variables.scss';
+
+#Header{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.Header-Content{
+    text-align: center;
+    margin: -10px 0 0 0;
+    background-color: $color-primary;
+    padding: 3%;      
+
+    h1, h2, h3{
+        color: $color-white;
+    }
+}
+
+.Header-Border {
+    pointer-events: none;
+    user-select: none;
+    height: 61px;
+    width: 100%;
+    object-fit: cover;
+    margin: -10px 0 0 0;
+}

@@ -1,4 +1,4 @@
-@import './../../variables.scss';
+@import './../../../variables.scss';
 #Services{
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@
     white-space: pre;
     margin-left: -5em;
     margin-right: 2em;
-    background-image: url('./../../assets/svgs/Dev-Icon.svg');
+    background-image: url('./../../../assets/svgs/Dev-Icon.svg');
     background-size: 3em 3em;
     height: 3em;
     width: 3em;
@@ -63,7 +63,7 @@
     white-space: pre;
     margin-left: -5em;
     margin-right: 2em;
-    background-image: url('./../../assets/svgs/Marketing-Icon.svg');
+    background-image: url('./../../../assets/svgs/Marketing-Icon.svg');
     background-size: 3em 3em;
     height: 3em;
     width: 3em;
@@ -80,7 +80,7 @@
     white-space: pre;
     margin-right: -5em;
     margin-left: 2em;
-    background-image: url('./../../assets/svgs/Design-Icon.svg');
+    background-image: url('./../../../assets/svgs/Design-Icon.svg');
     background-size: 3em 3em;
     height: 3em;
     width: 3em;
@@ -108,12 +108,12 @@
 
 @media (max-aspect-ratio: 16/9){
     .Services-Content-Text{
-        max-width: 47.5%;
+        max-width: 47.65%;
     }
 }
 @media (max-aspect-ratio: 16/10){
     .Services-Content-Text{
-        max-width: 58%;
+        max-width: 55.9%;
     }
 }
 @media (max-aspect-ratio: 4/3){
