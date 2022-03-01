@@ -24,10 +24,10 @@ function App() {
         <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
 
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/Pacote-Basico/" element={<PacksBasicPage />}/>
-          <Route path="/Pacote-Avancado/" element={<PacksAdvancedPage />}/>
-          <Route path="/Pacote-Supremo/" element={<PacksSupremePage />}/>
+          <Route path="/DVargasStudio/" element={<Home />}/>
+          <Route path="/DVargasStudio/Pacote-Basico/" element={<PacksBasicPage />}/>
+          <Route path="/DVargasStudio/Pacote-Avancado/" element={<PacksAdvancedPage />}/>
+          <Route path="/DVargasStudio/Pacote-Supremo/" element={<PacksSupremePage />}/>
         </Routes>
 
         <Footer/>
