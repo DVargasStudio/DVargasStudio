@@ -13,6 +13,7 @@ import PacksBasicPage from "./pages/PacksBasicPage";
 import PacksAdvancedPage from "./pages/PacksAdvancedPage";
 import PacksSupremePage from "./pages/PacksSupremePage";
 import ScrollToTop from "./assets/functions/ScrollToTop";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
@@ -28,6 +29,7 @@ function App() {
           <Route path="/DVargasStudio/Pacote-Basico/" element={<PacksBasicPage />}/>
           <Route path="/DVargasStudio/Pacote-Avancado/" element={<PacksAdvancedPage />}/>
           <Route path="/DVargasStudio/Pacote-Supremo/" element={<PacksSupremePage />}/>
+          <Route path="/DVargasStudio/Portfolio/" element={<Portfolio />}/>
         </Routes>
 
         <Footer/>

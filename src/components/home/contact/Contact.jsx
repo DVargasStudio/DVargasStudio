@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="Contact-Content">
         <div className="Contact-Form">
           
-           <form method="POST" action="https://formsubmit.co/d7d17c08c6dad987090da39ffff3eeea">
+           <form method="POST" action="https://formsubmit.co/dvargascontatooficial@gmail.com">
              <div className="Contact-Form-Session">
                 <div className="Contact-Form-Obj">
                   <label>Nome:</label>

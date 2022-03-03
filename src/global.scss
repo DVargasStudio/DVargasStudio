@@ -18,6 +18,7 @@ html {
 }
 
 h1,  h2, h3, h4, h5, h6 {
+    letter-spacing: 0;
     font-family: Bison;
     font-size: 4.25em;
 }
@@ -36,11 +37,11 @@ h4{
 }
 
 h5{
-    font-size: 1.1em;
+    font-size: calc(6px + 1.1em);
 }
 
 h6{
-    font-size: 0.9em;
+    font-size: calc(6px + 0.9em);
 }
 
 img{
@@ -81,5 +82,11 @@ img{
 @media (min-aspect-ratio: 2/1){
     *{
         font-size: 1.6vw;
+    }
+}
+
+@media(max-width:687px){
+    h1, h2, h3, h4, h5, h6{
+        letter-spacing: 0.65px;
     }
 }

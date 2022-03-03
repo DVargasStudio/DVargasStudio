@@ -7,6 +7,8 @@ export default function Header(props) {
     <div id="Header">
         <div class="Header-Content">
             <h1>{props.title}</h1>
+            <p>{props.subtitle}</p>
+            <p>{props.subtitle2}</p>
         </div>
         <img src={border} alt="" class="Header-Border"/>
     </div>

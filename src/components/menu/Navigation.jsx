@@ -1,5 +1,7 @@
 import './navigation.scss';
 
+import { Link } from 'react-router-dom';
+
 export default function Navigation({menuOpen,SetMenuOpen}) {
     const PressMenu = () => SetMenuOpen(!menuOpen)
   return (
@@ -10,6 +12,7 @@ export default function Navigation({menuOpen,SetMenuOpen}) {
             <li><a href="/DVargasStudio/#Services" onClick={PressMenu}><h3>Serviços</h3></a></li>
             <li><a href="/DVargasStudio/#Packs" onClick={PressMenu}><h3>Pacotes</h3></a></li>
             <li><a href="/DVargasStudio/#Contact" onClick={PressMenu}><h3>Contatos</h3></a></li>
+            <li><Link to="/DVargasStudio/Portfolio" onClick={PressMenu}><h3>Portfólio</h3></Link></li>
         </ul>
     </div>
   )

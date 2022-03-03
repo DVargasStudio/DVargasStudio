@@ -1,5 +1,5 @@
 import './menu.scss';
-import logo from './../../assets/imgs/Logo.png';
+import logo from './../../assets/svgs/Logo.svg';
 import whatsIcon from './../../assets/svgs/Whatsapp-Icon.svg'
 import youtubeIcon from './../../assets/svgs/Youtube-Icon.svg'
 import instaIcon from './../../assets/svgs/Instagram-Icon.svg'

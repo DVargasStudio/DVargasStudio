@@ -19,11 +19,32 @@
     height: 1em;
     vertical-align: middle;
     user-select: none;
+    min-height: 26px;
 }
 
 .Footer-White-Text {
-    padding: 0 0 0.5% 0;
+    padding: 0 0 0.8% 0;
     text-align: center;
     font-size: 0.7em;
     color: $color-white;
+}
+
+@media (max-aspect-ratio: 3/4){
+
+    .Footer-Bar{
+        gap: 1em;
+    }
+
+    .Footer-White-Text {
+        padding: 0 0 2% 0;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .Footer-Bar a img{
+        height: 1.5em;
+        vertical-align: middle;
+        user-select: none;
+    }
+
 }
