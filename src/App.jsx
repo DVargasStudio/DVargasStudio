@@ -19,17 +19,17 @@ function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <ScrollToTop/>
         <Menu menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
         <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
 
-        <Routes basename={process.env.PUBLIC_URL}>
+        <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="Pacote-Basico/" element={<PacksBasicPage />}/>
-          <Route path="Pacote-Avancado/" element={<PacksAdvancedPage />}/>
-          <Route path="Pacote-Supremo/" element={<PacksSupremePage />}/>
-          <Route path="Portfolio/" element={<Portfolio />}/>
+          <Route path="/Pacote-Basico/" element={<PacksBasicPage />}/>
+          <Route path="/Pacote-Avancado/" element={<PacksAdvancedPage />}/>
+          <Route path="/Pacote-Supremo/" element={<PacksSupremePage />}/>
+          <Route path="/Portfolio/" element={<Portfolio />}/>
         </Routes>
 
         <Footer/>
