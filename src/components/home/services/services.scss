@@ -1,5 +1,5 @@
 @import './../../../variables.scss';
-#Services{
+#Servicos{
     margin: 0;
     padding: 0;
     width: auto;
@@ -86,12 +86,29 @@
     width: 3em;
   }
 
-.Services-Content h1, .Services-Content h3, .Services-Content p{
+.Services-Content h1, .Services-Content p{
     color: $color-white;
 }
 
 .Services-Content p{
     padding: 6% 3%;
+}
+
+.Services-Button{
+    margin: auto;
+    width: fit-content;
+    max-width: 50%;
+    user-select: none;
+    color: $color-white;
+    padding: 2vh 2vw;
+    background-color: $color-primary-darker;
+    border-radius: 0.4em;
+    cursor: pointer;
+    transition: background-color ease 200ms;
+}
+
+.Services-Button:hover{
+    background-color: #071514;
 }
 
 @media (min-aspect-ratio: 2/1){

@@ -22,7 +22,7 @@ export default function Portfolio() {
 
   return (
     <div>
-        <Header title="Nossos Projetos" subtitle="Se você está curioso e quer saber um pouco mais sobre o que fizemos," subtitle2="aqui temos alguns projetos para você ver."/>
+        <Header title="Projetos Exclusivos" subtitle="Se isso interessa a você e quiser saber um pouco mais o que fizemos," subtitle2="aqui estão alguns dos projetos."/>
 
         <div className="Portfolio-Content">
             <h3>Filtro</h3>
@@ -42,6 +42,8 @@ export default function Portfolio() {
                 <PortfolioItem img={imgPlaceHolder} icon={basicoIcon} active={basicoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
                 <PortfolioItem img={imgPlaceHolder} icon={avancadoIcon} active={avancadoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
             </div>
+            <h3>Por questão de confidencialidade,</h3>
+            <h4>não podemos divulgar projetos realizados à terceiros</h4>
         </div>
     </div>
   )
