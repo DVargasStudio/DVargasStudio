@@ -11,7 +11,7 @@ export default function Menu ({menuOpen,SetMenuOpen}) {
     <div id="Menu" className={"" + (menuOpen && "Active")}>
         <div class="Menu-Wrapper">
             <div class="Menu-Logo">
-                <a href="/#Cover"><img src={logo} alt="logo" /></a>
+                <a href="#Cover"><img src={logo} alt="logo" /></a>
             </div>
             <div class="Menu-Bar">
               <a href="https://www.instagram.com/dvargas_studio/" target="_blank" rel="noreferrer"><img src={instaIcon} alt="instagram Icon" /></a>
