@@ -1,7 +1,7 @@
 {
   "name": "dvargassite",
   "version": "0.1.0",
-  "homepage": "http://DVargasStudio.github.io/",
+  "homepage": "https://dvargasstudio.github.io/DVargasStudio/",
   "main": "index.html",
   "private": false,
   "dependencies": {
