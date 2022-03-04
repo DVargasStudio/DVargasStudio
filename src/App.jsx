@@ -2,7 +2,7 @@ import "./global.scss";
 
 import { useState } from "react";
 
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, HashRouter as Router } from "react-router-dom";
 
 import Menu from "./components/menu/Menu";
 import Nav from "./components/menu/Navigation";
