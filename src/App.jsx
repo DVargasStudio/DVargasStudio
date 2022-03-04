@@ -2,7 +2,7 @@ import "./global.scss";
 
 import { useState } from "react";
 
-import { Routes, Route, HashRouter as Router } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 
 import Menu from "./components/menu/Menu";
 import Nav from "./components/menu/Navigation";
@@ -19,17 +19,17 @@ function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop/>
         <Menu menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
         <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
 
         <Routes>
-          <Route path="/DVargasStudio/" element={<Home />}/>
-          <Route path="/DVargasStudio/Pacote-Basico/" element={<PacksBasicPage />}/>
-          <Route path="/DVargasStudio/Pacote-Avancado/" element={<PacksAdvancedPage />}/>
-          <Route path="/DVargasStudio/Pacote-Supremo/" element={<PacksSupremePage />}/>
-          <Route path="/DVargasStudio/Portfolio/" element={<Portfolio />}/>
+          <Route path="/" element={<Home />}/>
+          <Route path="/Pacote-Basico/" element={<PacksBasicPage />}/>
+          <Route path="/Pacote-Avancado/" element={<PacksAdvancedPage />}/>
+          <Route path="/Pacote-Supremo/" element={<PacksSupremePage />}/>
+          <Route path="/Portfolio/" element={<Portfolio />}/>
         </Routes>
 
         <Footer/>
