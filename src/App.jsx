@@ -19,12 +19,12 @@ function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
   return (
     <div>
-      <Router basename="/DVargasStudio">
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop/>
         <Menu menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
         <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
 
-        <Routes basename="/DVargasStudio">
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<Home />}/>
           <Route path="Pacote-Basico/" element={<PacksBasicPage />}/>
           <Route path="Pacote-Avancado/" element={<PacksAdvancedPage />}/>
