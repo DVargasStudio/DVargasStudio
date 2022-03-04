@@ -19,7 +19,7 @@ function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
   return (
     <div>
-      <Router>
+      <Router basename="/DVargasStudio">
         <ScrollToTop/>
         <Menu menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
         <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
