@@ -1,7 +1,7 @@
 @import './../../../variables.scss';
 
 #Pacotes{
-    padding: 3% 0;
+    padding: 1% 0 0;
     text-align: center;
 }
 
@@ -11,8 +11,8 @@
     flex-direction: row;
     align-items: center;
     justify-content:center;
-    padding: 3.5% 0 0;
-    gap: 10%
+    padding: 3.5% 0 5%;
+    gap: 10%;
 }
 
 .Packs-Start div{
@@ -26,10 +26,12 @@
 
 .Packs-Button{
     margin: auto;
-    max-width: 25%;
+    width: fit-content;
+    min-width: 3.5em;
+    max-width: 30%;
     user-select: none;
     color: $color-white;
-    padding: 3vh 0;
+    padding: 2vh 2vw;
     background-color: $color-primary;
     border-radius: 0.4em;
     cursor: pointer;
@@ -80,7 +82,7 @@
 }
 
 .Packs-Carousel{
-    margin: 5% 0 2%;
+    margin: 0;
     overflow-x: hidden;
 }
 

@@ -14,7 +14,7 @@ import imgPlaceHolder from './../assets/imgs/ImgPlaceHolder.png'
 import Header from "./../components/header/Header"
 import PortfolioItem from "./../components/portfolio/PortfolioItem"
 
-export default function Portfolio() {
+export default function Portfolio({refHeader}) {
 
     const [basicoOn, SetBasicoOn] = useState(true);
     const [avancadoOn, SetAvancadoOn] = useState(true);
@@ -22,7 +22,7 @@ export default function Portfolio() {
 
   return (
     <div>
-        <Header title="Projetos Exclusivos" subtitle="Se isso interessa a você e quiser saber um pouco mais o que fizemos," subtitle2="aqui estão alguns dos projetos."/>
+        <Header title="Projetos Exclusivos" subtitle="Se isso interessa a você e quiser saber um pouco mais o que fizemos," subtitle2="aqui estão alguns dos projetos." refHeader={refHeader}/>
 
         <div className="Portfolio-Content">
             <h3>Filtro</h3>

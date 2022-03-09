@@ -2,10 +2,10 @@ import './portfolioItem.scss'
 
 export default function PortfolioItem(props) {
   return (
-    <div id="PortfolioItem" class={"" + (props.active && "Active")}>
+    <div id="PortfolioItem" className={"" + (props.active && "Active")}>
         
         <div>
-            <img src={props.img} alt="image" className="PorfolioItem-Img"/>
+            <img src={props.img} alt="" className="PorfolioItem-Img"/>
             <img src={props.icon} alt="icon" className='PortfolioItem-Icon' />
         </div>
         <div className="PortfolioItem-Info">

@@ -5,12 +5,12 @@ import Header from "../components/header/Header"
 import ReactPlayer from "react-player";
 import video from './../assets/videos/video3.mp4'
 
-export default function PacksBasicPage() {
+export default function PacksBasicPage({refHeader}) {
   return (
-    <div class="PacksPages">
-      <Header title="Nossos Pacotes"/>
+    <div className="PacksPages">
+      <Header title="Nossos Pacotes" refHeader={refHeader}/>
       <h1>Pacote Supremo</h1>
-      <div class="PacksPages-Content">
+      <div className="PacksPages-Content">
         <ReactPlayer url={video} playing={false} width="80%" height="80%" pip={true} controls={true} className="PacksPages-Video"/>
 
         <h2>Legenda</h2>

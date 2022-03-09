@@ -3,7 +3,7 @@ import './navigation.scss';
 import { Link } from 'react-router-dom';
 
 export default function Navigation({menuOpen,SetMenuOpen}) {
-    const PressMenu = () => SetMenuOpen(!menuOpen)
+    const PressMenu = () => SetMenuOpen(!menuOpen);
   return (
     <div id="Navigation" className={"" + (menuOpen && "Active")}>
         <ul>

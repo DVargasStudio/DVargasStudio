@@ -1,8 +1,8 @@
 import './contact.scss';
 
-export default function Contact() {
+export default function Contact({refContact}) {
   return (
-    <div id="Contato">
+    <div id="Contato" ref={refContact}>
       <h1>Contato</h1>
       <div className="Contact-Content">
         <div className="Contact-Form">

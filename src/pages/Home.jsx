@@ -4,14 +4,14 @@ import Services from "./../components/home/services/Services";
 import Packs from "./../components/home/packs/Packs";
 import Contact from "./../components/home/contact/Contact";
 
-export default function Home() {
+export default function Home({refHome, refAbout, refPacks, refContact}) {
   return (
-    <div>
+    <div ref={refHome}>
       <Cover/>
-      <About/>
+      <About refAbout={refAbout}/>
       <Services/>
-      <Packs/>
-      <Contact/>
+      <Packs refPacks={refPacks}/>
+      <Contact refContact={refContact}/>
     </div>
   )
 }
