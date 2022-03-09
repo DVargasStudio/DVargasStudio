@@ -7,7 +7,7 @@ import facebookIcon from './../../assets/svgs/Facebook-Icon-W.svg'
 export default function Footer() {
   return (
     <div id="Footer">
-      <p className="Footer-White-Text">D'Vargas Studio. <br /> Todos os direitos Reservados</p>
+      <p className="Footer-White-Text">D'Vargas Studio. Todos os direitos Reservados</p>
       <div className="Footer-Bar">
         <a href="https://www.instagram.com/dvargas_studio/" target="_blank" rel="noreferrer"><img src={instaIcon} alt="instagram Icon" /></a>
         <a href="https://www.facebook.com/DonnVargasStudio" target="_blank" rel="noreferrer"><img src={facebookIcon} alt="facebook Icon" /></a>
