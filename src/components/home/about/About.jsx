@@ -1,5 +1,5 @@
 import './about.scss';
-import image from './../../../assets/imgs/Bodelé-1.png'
+import image from './../../../assets/imgs/Bodelé-1.webp'
 
 export default function About({refAbout}) {
   return (

@@ -1,6 +1,7 @@
 @import './variables.scss';
 
 @font-face {
+    font-display: swap;
     font-family: 'Bison';
     src: local('Bison'), url(./assets/fonts/Bison.ttf) format('truetype');
 }
@@ -29,19 +30,19 @@ h2 {
 
 h3
 {
-    font-size: 1.8em;
+    font-size: 1.75em;
 }
 
 h4{
-    font-size: 1.3em;
+    font-size: 1.25em;
 }
 
 h5{
-    font-size: calc(6px + 1.1em);
+    font-size: calc(20px + 0.4em);
 }
 
 h6{
-    font-size: calc(6px + 0.9em);
+    font-size: calc(19px + 0.1em);
 }
 
 img{

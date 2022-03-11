@@ -1,7 +1,7 @@
 @import './../variables.scss';
 
 .Portfolio-Content{
-    min-height: 80vh;
+    min-height: 50vh;
     text-align: center;
     margin: 2% 0 4%;
 }
@@ -28,5 +28,5 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 2% auto;
+    margin: 2% auto 5%;
 }

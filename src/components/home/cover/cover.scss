@@ -1,8 +1,11 @@
 @import './../../../variables.scss';
-
 #Home{
+    padding-top: 45px;
+}
+
+.HomeContent{
     height: 123vh;
-    background-image: url(../../../assets/imgs/Cover.png);
+    background-image: url(../../../assets/imgs/Cover.webp);
     background-color: $color-white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +19,7 @@
 }
 
 .Cover-Title {
-    margin-top: 8.5vh;
+    margin-top: 5.5vh;
     text-align: center;
     text-shadow: -1.5px -1.5px $color-white, 1.5px 1.5px $color-white, 1.5px -1.5px $color-white, -1.5px 1.5px $color-white; 
     h1{
@@ -39,6 +42,10 @@
 }
 
 @media (min-aspect-ratio: 1/1){
+    #Home{
+        padding-top: 0;
+    }
+
     .Cover-Space{
         display: initial;
         width: 32em;

@@ -37,7 +37,7 @@ export default function Packs({refPacks}) {
       <div className="Packs-Carousel">
         <div id="Packs-Inner" className={sliderPosition}>
           <div className="Packs-Content-Basic">
-            <h1 className="Packs-Text-White">Básico</h1>
+            <h2 className="Packs-Text-White">Básico</h2>
             <div className="Packs-Content-Flex">
               <img src={basicoIconW} alt="basico icon" />
               <p className="Packs-Text-White">Básico só no nome, o primeiro pacote da D’Vargas está longe de ser simplório. Desenvolvemos seu projeto desde o início junto com sua equipe, integrando e aplicando melhorias tecnologicas já testadas e em pleno funcionamento para seus clientes.<br/><br/>Sejam games, animações de curta ou longa metragem, site ou até mesmo plataformas complexas, esse pacote engloba tudo!</p>
@@ -47,7 +47,7 @@ export default function Packs({refPacks}) {
           </div>
 
           <div className="Packs-Content-Advanced">
-            <h1 className="Packs-Text-White">Avançado</h1>
+            <h2 className="Packs-Text-White">Avançado</h2>
             <div className="Packs-Content-Flex">
               <img src={avancadoIconW} alt="avancado icon" />
               <p className="Packs-Text-White">Não só faremos o seu projeto como ajudaremos a levanta-lo do zero de acordo com as necessidades de seu público alvo. Utilizando estratégias de marketing desenvolvidas a partir de consultorias com nossos agentes, visamos o melhor desempenho para atingirmos o seu sucesso, lado a lado!<br/><br/>Se você precisa também de suporte, esse pacote irá lhe atender.</p>
@@ -57,7 +57,7 @@ export default function Packs({refPacks}) {
           </div>
 
           <div className="Packs-Content-Supreme">
-            <h1 className="Packs-Text-White">Supremo</h1>
+            <h2 className="Packs-Text-White">Supremo</h2>
             <div className="Packs-Content-Flex">
               <img src={supremoIconW} alt="supremo icon" />
               <p className="Packs-Text-White">Se você tem desejo de abrir um negócio digital ou criar um projeto, mas não tem nem mesmo a ideia do que será, esse pacote é para você!<br/><br/>Nossos especialistas farão a consultoria necessária para descobrir a área e postura desejada. Durante a produção, treinaremos você para gerir o seu negócio da melhor forma possível a partir da entrega! E não é só isso, todo o marketing e suporte posterior à entrega estão INCLUSOS!</p>

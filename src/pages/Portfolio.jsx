@@ -9,7 +9,11 @@ import basicoIconL from './../assets/svgs/Basico-Icon-L.svg'
 import avancadoIconL from './../assets/svgs/Avancado-Icon-L.svg'
 import supremoIconL from './../assets/svgs/Supremo-Icon-L.svg'
 
-import imgPlaceHolder from './../assets/imgs/ImgPlaceHolder.png'
+import ShowBodele from './../assets/imgs/ShowBodeleCover.png'
+import IdadeMedia from './../assets/imgs/DiaADiaIdadeMediaCover.png'
+import ManualSobrevivencia from './../assets/imgs/ManualSobrevivenciaCover.png'
+import DanDansGarden from './../assets/imgs/DanDansGardenCover.png'
+
 
 import Header from "./../components/header/Header"
 import PortfolioItem from "./../components/portfolio/PortfolioItem"
@@ -32,15 +36,10 @@ export default function Portfolio({refHeader}) {
                 <img src={( supremoOn ? supremoIcon : supremoIconL)} alt="supremo icon" onClick={() => SetSupremoOn(!supremoOn)}/>
             </div>
             <div className="Portfolio-Itens">
-                <PortfolioItem img={imgPlaceHolder} icon={supremoIcon} active={supremoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={basicoIcon} active={basicoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={avancadoIcon} active={avancadoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={supremoIcon} active={supremoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={supremoIcon} active={supremoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={basicoIcon} active={basicoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={avancadoIcon} active={avancadoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={basicoIcon} active={basicoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
-                <PortfolioItem img={imgPlaceHolder} icon={avancadoIcon} active={avancadoOn} title="Projeto xxxxxxx" subtitle="criação de game"/>
+               <PortfolioItem link="/Portfolio/Dia-a-Dia-Idade-Media" img={IdadeMedia} icon={supremoIcon} active={supremoOn} title="Dia a dia na idade média" subtitle="série de animação"/>
+               <PortfolioItem link="/Portfolio/Manual-do-Sobrevivente" img={ManualSobrevivencia} icon={basicoIcon} active={basicoOn} title="Manual de ultra sobrevivência" subtitle="série de animação"/>
+               <PortfolioItem link="/Portfolio/Show-do-Bodele" img={ShowBodele} icon={avancadoIcon} active={avancadoOn} title="Show do Bodelé" subtitle="série de animação"/>
+               <PortfolioItem link="/Portfolio/DanDans-Garden" img={DanDansGarden} icon={supremoIcon} active={supremoOn} title="DanDan's Garden" subtitle="criação de game"/>
             </div>
             <h3>Por questão de confidencialidade,</h3>
             <h4>não podemos divulgar projetos realizados à terceiros</h4>

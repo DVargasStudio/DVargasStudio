@@ -6,13 +6,16 @@ import YoutubeI from "./../../components/svgs/YoutubeIcon";
 import Logo from "./../../components/svgs/Logo";
 import HamburguerI from "./../../components/svgs/HamburguerIcon";
 
+import { Link } from 'react-router-dom';
 
-export default function Menu ({menuOpen,SetMenuOpen, changeColor}) {
+
+export default function Menu ({menuOpen,SetMenuOpen, inHomePage, changeColor}) {
   return (
     <div id="Menu" className={"" + (menuOpen && "Active")}>
         <div className="Menu-Wrapper">
             <div className="Menu-Logo">
-                <a href="/#Home"><Logo fill="#fcfcfc" changeColor={changeColor} /></a>
+
+              {inHomePage ? <a href="/#Home"><Logo fill="#fcfcfc" changeColor={changeColor} /></a> : <Link to="/#Home"><Logo fill="#fcfcfc" changeColor={changeColor} /></Link> }  
             </div>
             <div className="Menu-Bar">
               <a href="https://www.instagram.com/dvargas_studio/" target="_blank" rel="noreferrer"><InstagramI fill="#fcfcfc" changeColor={changeColor || menuOpen}/></a>

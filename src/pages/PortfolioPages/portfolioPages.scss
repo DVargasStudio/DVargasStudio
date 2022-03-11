@@ -1,0 +1,97 @@
+@import './../../variables.scss';
+
+.PortfolioPages{
+
+    h1, h2, h4{
+    margin: 5% 0 2%;
+    text-align: center;
+    }
+}
+
+.PortfolioPages-Start{
+    display: flex;
+    flex-direction: row;
+    margin: 6% 6% 5%;
+    gap: 4%;
+
+    h1, h2 {
+        margin: 5% 0 2%;
+        text-align: center;
+    }
+    a h4{
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    p{
+        margin-top: 2%;
+        text-align: center;
+    }
+
+}
+
+.PortfolioPages-Video{
+    margin: 3% auto 6%;
+    padding: 0.9em 0.9em ;
+    background-color: $color-primary-light;
+    border-radius: 0.2em;
+}
+
+.PortfolioPages-Intro{
+    flex: 3;
+}
+
+.PortfolioPages-Img{
+    flex: 2;
+    height: calc(100% - 1.8em);;
+    padding: 0.9em;
+    background-color: $color-primary-light;
+    border-radius: 0.2em;
+    margin: 0 0 10px;
+
+    img{
+        width: 100%;
+    }
+}
+
+.PortfolioPages-Tools{
+    p{
+        margin: 0 16% 5%;
+        text-align: center;
+    }
+}
+
+.PortfolioPages-Tools-Imgs{
+    margin: 3% 0 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    img{
+        width: 13%;
+        min-width: 120px;
+        margin: 3% 3%;
+    }
+}
+
+@media (max-aspect-ratio: 1/1){
+    .PortfolioPages-Start{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .PortfolioPages-Tools{
+        p{
+            margin: 0 2%;
+        }
+    }
+
+    .PortfolioPages-Tools-Imgs{
+        
+        img{
+            margin: 5% 5%;
+        }
+    }
+}

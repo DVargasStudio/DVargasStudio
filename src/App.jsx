@@ -15,6 +15,10 @@ import PacksAdvancedPage from "./pages/PacksAdvancedPage";
 import PacksSupremePage from "./pages/PacksSupremePage";
 import ScrollToTop from "./assets/functions/ScrollToTop";
 import Portfolio from "./pages/Portfolio";
+import ManualSobrevivencia from "./pages/PortfolioPages/ManualSobrevivencia";
+import DanDansGarden from "./pages/PortfolioPages/DanDansGarden";
+import IdadeMedia from "./pages/PortfolioPages/IdadeMedia";
+import ShowBodele from "./pages/PortfolioPages/ShowBodele";
 
 function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
@@ -29,8 +33,8 @@ function App() {
     <div>
       <Router>
         <ScrollToTop/>
-        <Menu menuOpen={menuOpen} SetMenuOpen={SetMenuOpen} changeColor={ (inHomepage && (inAbout || inPacks || inContact)) || (!inHeader && !inHomepage) ? true : false}/>
-        <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen}/>
+        <Menu menuOpen={menuOpen} SetMenuOpen={SetMenuOpen} inHomePage={inHomepage} changeColor={ (inHomepage && (inAbout || inPacks || inContact)) || (!inHeader && !inHomepage) ? true : false}/>
+        <Nav menuOpen={menuOpen} SetMenuOpen={SetMenuOpen} inHomePage={inHomepage}/>
 
         <Routes>
           <Route path="/" element={<Home refHome={homepageRef} refAbout={aboutRef} refPacks={packsRef} refContact={contactRef}/>}/>
@@ -38,6 +42,10 @@ function App() {
           <Route path="/Pacote-Avancado/" element={<PacksAdvancedPage refHeader={headerRef}/>}/>
           <Route path="/Pacote-Supremo/" element={<PacksSupremePage refHeader={headerRef}/>}/>
           <Route path="/Portfolio/" element={<Portfolio refHeader={headerRef}/>}/>
+          <Route path="/Portfolio/Manual-do-Sobrevivente" element={<ManualSobrevivencia refHeader={headerRef}/> }/>
+          <Route path="/Portfolio/Show-do-Bodele" element={<ShowBodele refHeader={headerRef}/>}/>
+          <Route path="/Portfolio/Dia-a-Dia-Idade-Media" element={<IdadeMedia refHeader={headerRef}/>}/>
+          <Route path="/Portfolio/DanDans-Garden" element={<DanDansGarden refHeader={headerRef}/>}/>
         </Routes>
 
         <Footer/>
