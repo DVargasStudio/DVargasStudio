@@ -38,7 +38,7 @@ export default function Contact({refContact}) {
                   <input type="text" name="_honey" className="Contact-Honey"/>
                   <input type="hidden" name="_subject" value="D'Vargas - Nova Mensagem de seu site"/>
                   <input type="hidden" name="_captcha" value="false"/>
-                  <input type="hidden" name="_next" value="http://grramp.github.io/DVargasStudio/#Contact"/>
+                  <input type="hidden" name="_next" value="https://dvargasstudio.com.br/#Contato"/>
                   <input type="hidden" name="_template" value="box"/>
                   <button type="submit">Enviar</button>
                 </div>
