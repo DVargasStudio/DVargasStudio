@@ -3,11 +3,18 @@ import "./packsPages.scss"
 import Header from "../components/header/Header"
 
 import ReactPlayer from "react-player";
+import { Helmet } from 'react-helmet-async'
 import video from './../assets/videos/video2.mp4'
 
 export default function PacksAdvancedPage({refHeader}) {
   return (
     <div className="PacksPages">
+      <Helmet>
+        <title>Pacote Avançado</title>
+        <meta name="description" content="A gente sabe que as vezes ter o projeto pronto nem sempre é tudo o que deve ser feito para levar ele ao sucesso..."/>
+        <link rel="canonical" href="/Pacote-Avancado" />
+      </Helmet>
+
       <Header title="Nossos Pacotes" refHeader={refHeader}/>
       <h1>Pacote Avançado</h1>
       <div className="PacksPages-Content">

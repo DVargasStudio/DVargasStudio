@@ -2,12 +2,20 @@ import "./packsPages.scss"
 
 import Header from "../components/header/Header"
 
+import {Helmet} from "react-helmet-async"
 import ReactPlayer from "react-player";
 import video from './../assets/videos/video1.mp4'
 
 export default function PacksBasicPage({refHeader}) {
   return (
     <div className="PacksPages">
+
+      <Helmet>
+        <title>Pacote Básico</title>
+        <meta name="description" content="Este é o pacote básico de desenvolvimento de projetos, me acompanhe nessa resenha para saber se é tão completo como a gente fala mesmo..."/>
+        <link rel="canonical" href="/Pacote-Basico" />
+      </Helmet>
+
       <Header title="Nossos Pacotes" refHeader={refHeader}/>
       <h1>Pacote Básico</h1>
       <div className="PacksPages-Content">

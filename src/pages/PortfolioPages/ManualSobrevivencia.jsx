@@ -1,6 +1,7 @@
 import './portfolioPages.scss';
 
 import ReactPlayer from "react-player";
+import {Helmet} from 'react-helmet-async';
 
 import Header from "./../../components/header/Header"
 import video from './../../assets/videos/ManualSobrevivencia.mp4'
@@ -14,6 +15,12 @@ import reaperLogo from './../../assets/imgs/ReaperLogo.png'
 export default function ManualSobrevivencia({refHeader}) {
   return (
     <div className="PortfolioPages">
+        <Helmet>
+          <title>Manual de Ultra Sobrevivência</title>
+          <meta name="description" content="O especialista em Ultra sobrevivência Raskonikov é o mais novo contratado da D'Vargas e já chegou mostrando a que veio..."/>
+          <link rel="canonical" href="/Portfolio/Manual-do-Sobrevivente"/>
+        </Helmet>
+
         <Header title="Manual de Ultra Sobrevivência" refHeader={refHeader}/>
         <h2>Sobre o Projeto</h2>
       <div className="PortfolioPages-Start">

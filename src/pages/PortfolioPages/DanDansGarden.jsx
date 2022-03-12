@@ -1,6 +1,7 @@
 import './portfolioPages.scss';
 
 import ReactPlayer from "react-player";
+import {Helmet} from 'react-helmet-async'
 
 import Header from './../../components/header/Header';
 
@@ -15,6 +16,13 @@ import reaperLogo from './../../assets/imgs/ReaperLogo.png'
 export default function DanDansGarden({refHeader}) {
   return (
     <div className="PortfolioPages">
+
+        <Helmet>
+          <title>DanDan's Garden</title>
+          <meta name="description" content="O porteiro mais estressado do mundo agora tem o proprio jogo e você claramente não vai querer enfrenta-lo. Já disponivel na Play Store..."/>
+          <link rel="canonical" href="/Portfolio/DanDans-Garden" />
+        </Helmet>
+
         <Header title="DanDan's Garden" refHeader={refHeader}/>
         <h2>Sobre o Projeto</h2>
       <div className="PortfolioPages-Start">

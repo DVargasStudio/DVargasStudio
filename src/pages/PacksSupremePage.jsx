@@ -2,12 +2,20 @@ import "./packsPages.scss"
 
 import Header from "../components/header/Header"
 
+import {Helmet} from 'react-helmet-async'
 import ReactPlayer from "react-player";
 import video from './../assets/videos/video3.mp4'
 
 export default function PacksBasicPage({refHeader}) {
   return (
     <div className="PacksPages">
+
+      <Helmet>
+        <title>Pacote Supremo</title>
+        <meta name="description" content="Com o pacote Supremo não só nós desenvolveremos o seu projeto, mas o ajudaremos a elabora-lo! Além de treinar você para geri-lo..."/>
+        <link rel="canonical" href="/Pacote-Supremo" />
+      </Helmet>
+
       <Header title="Nossos Pacotes" refHeader={refHeader}/>
       <h1>Pacote Supremo</h1>
       <div className="PacksPages-Content">

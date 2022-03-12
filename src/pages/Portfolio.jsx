@@ -1,6 +1,7 @@
 import './portfolio.scss';
 
 import { useState } from "react";
+import {Helmet} from 'react-helmet-async'
 
 import basicoIcon from './../assets/svgs/Basico-Icon.svg'
 import avancadoIcon from './../assets/svgs/Avancado-Icon.svg'
@@ -26,6 +27,13 @@ export default function Portfolio({refHeader}) {
 
   return (
     <div>
+        
+        <Helmet>
+          <title>Portfólio</title>
+          <meta name="description" content="Se isso interessa a você e quiser saber um pouco mais o que fizemos, aqui estão alguns de nossos projetos exclusivos..."/>
+          <link rel="canonical" href="/Portfolio" />
+        </Helmet>
+
         <Header title="Projetos Exclusivos" subtitle="Se isso interessa a você e quiser saber um pouco mais o que fizemos," subtitle2="aqui estão alguns dos projetos." refHeader={refHeader}/>
 
         <div className="Portfolio-Content">
