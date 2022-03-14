@@ -19,6 +19,8 @@ import ManualSobrevivencia from "./pages/PortfolioPages/ManualSobrevivencia";
 import DanDansGarden from "./pages/PortfolioPages/DanDansGarden";
 import IdadeMedia from "./pages/PortfolioPages/IdadeMedia";
 import ShowBodele from "./pages/PortfolioPages/ShowBodele";
+import DragDeal from "./pages/PortfolioPages/DragDeal";
+import BodeleHomeless from "./pages/PortfolioPages/BodeleHomeless";
 
 function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
@@ -46,6 +48,8 @@ function App() {
           <Route path="/Portfolio/Show-do-Bodele" element={<ShowBodele refHeader={headerRef}/>}/>
           <Route path="/Portfolio/Dia-a-Dia-Idade-Media" element={<IdadeMedia refHeader={headerRef}/>}/>
           <Route path="/Portfolio/DanDans-Garden" element={<DanDansGarden refHeader={headerRef}/>}/>
+          <Route path="/Portfolio/Drag-Deal" element={<DragDeal refHeader={headerRef}/>}/>
+          <Route path="/Portfolio/Bodele-the-Homeless" element={<BodeleHomeless refHeader={headerRef}/>}/>
         </Routes>
 
         <Footer/>

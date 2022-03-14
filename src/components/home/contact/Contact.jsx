@@ -10,25 +10,25 @@ export default function Contact({refContact}) {
            <form method="POST" action="https://formsubmit.co/62b22d0528a45d94eef6d32f3bba2378">
              <div className="Contact-Form-Session">
                 <div className="Contact-Form-Obj">
-                  <label for="name">Nome:</label>
+                  <label htmlFor="name">Nome:</label>
                   <input id="name" type="text" name="Nome" required/>
                 </div>
                 <div className="Contact-Form-Obj">
-                  <label for="telphone">Telefone:</label>
+                  <label htmlFor="telphone">Telefone:</label>
                   <input id="telphone"type="tel" name="Telefone"  pattern="[0-9+.#- ]+$" required/>
                 </div>
              </div>
 
              <div className="Contact-Form-Session">
                 <div className="Contact-Form-Obj">
-                  <label for="email">Email:</label>
+                  <label htmlFor="email">Email:</label>
                   <input id="email" type="email" name="Email" required/>
                 </div>
               </div>
 
              <div className="Contact-Form-Session">
                 <div className="Contact-Form-Obj">
-                  <label for="message">Mensagem:</label>
+                  <label htmlFor="message">Mensagem:</label>
                   <textarea id="message" name="Mensagem" cols="2" rows="6"></textarea>
                 </div>
               </div>

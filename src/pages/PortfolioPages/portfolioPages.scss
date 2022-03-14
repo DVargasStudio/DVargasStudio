@@ -1,6 +1,10 @@
 @import './../../variables.scss';
 
 .PortfolioPages{
+    a h4{
+        text-align: center;
+        margin: 4% auto 5%;
+    }
 
     h1, h2, h4{
     margin: 5% 0 2%;
@@ -32,7 +36,7 @@
 }
 
 .PortfolioPages-Video{
-    margin: 3% auto 6%;
+    margin: 3% auto 3%;
     padding: 0.9em 0.9em ;
     background-color: $color-primary-light;
     border-radius: 0.2em;
@@ -76,6 +80,28 @@
     }
 }
 
+.Center{
+    margin: 0 16% 2%;
+    text-align: center;
+}
+
+.PortfolioPages-Button{
+    margin: auto;
+    width: fit-content;
+    max-width: 50%;
+    user-select: none;
+    color: $color-white;
+    padding: 1.5vh 2vw;
+    background-color: $color-primary;
+    border-radius: 0.4em;
+    cursor: pointer;
+    transition: background-color ease 200ms;
+}
+
+.PortfolioPages-Button:hover{
+    background-color: #071514;
+}
+
 @media (max-aspect-ratio: 1/1){
     .PortfolioPages-Start{
         flex-direction: column-reverse;
@@ -93,5 +119,9 @@
         img{
             margin: 5% 5%;
         }
+    }
+
+    .Center{
+        margin: 0 2%;
     }
 }

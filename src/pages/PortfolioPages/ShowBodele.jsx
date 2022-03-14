@@ -39,7 +39,9 @@ export default function ShowBodele({refHeader}) {
         </div>
 
       <h2>Video</h2>
-           <ReactPlayer url={video} width="60%" height="60%" pip={true} controls={true} className="PortfolioPages-Video"/>
+      <ReactPlayer url={video} width="60%" height="60%" pip={true} controls={true} className="PortfolioPages-Video"/>
+      <p className='Center'>Para saber mais, clique no botão abaixo</p>
+      <a href="https://www.youtube.com/watch?v=oGWw5nCZliw" target="_blank" rel="noreferrer"><h4 className='PortfolioPages-Button'>Ver Mais</h4></a>
     </div>
   )
 }

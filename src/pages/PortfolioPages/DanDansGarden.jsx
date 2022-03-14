@@ -1,7 +1,7 @@
 import './portfolioPages.scss';
 
 import ReactPlayer from "react-player";
-import {Helmet} from 'react-helmet-async'
+import {Helmet} from 'react-helmet-async';
 
 import Header from './../../components/header/Header';
 
@@ -43,7 +43,9 @@ export default function DanDansGarden({refHeader}) {
         </div>
 
       <h2>Video</h2>
-           <ReactPlayer url={video} width={"calc(100px + 35%)"} height="35%" pip={true} controls={true} className="PortfolioPages-Video"/>
+      <ReactPlayer url={video} width={"calc(100px + 35%)"} height="35%" pip={true} controls={true} className="PortfolioPages-Video"/>
+      <p className='Center'>Para baixar o jogo, clique no botão abaixo</p>
+      <a href="https://play.google.com/store/apps/details?id=com.DVargasStudio.DanDansGarden.TowerDefenseGame" target="_blank" rel="noreferrer"><h4 className='PortfolioPages-Button'>Ver Mais</h4></a>
     </div>
   )
 }

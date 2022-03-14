@@ -14,7 +14,8 @@ import ShowBodele from './../assets/imgs/ShowBodeleCover.png'
 import IdadeMedia from './../assets/imgs/DiaADiaIdadeMediaCover.png'
 import ManualSobrevivencia from './../assets/imgs/ManualSobrevivenciaCover.png'
 import DanDansGarden from './../assets/imgs/DanDansGardenCover.png'
-
+import DragDeal from './../assets/imgs/DragDealCover.png';
+import BodeleHomeless from './../assets/imgs/BodeleTheHomeless.png'
 
 import Header from "./../components/header/Header"
 import PortfolioItem from "./../components/portfolio/PortfolioItem"
@@ -48,6 +49,8 @@ export default function Portfolio({refHeader}) {
                <PortfolioItem link="/Portfolio/Manual-do-Sobrevivente" img={ManualSobrevivencia} icon={basicoIcon} active={basicoOn} title="Manual de ultra sobrevivência" subtitle="série de animação"/>
                <PortfolioItem link="/Portfolio/Show-do-Bodele" img={ShowBodele} icon={avancadoIcon} active={avancadoOn} title="Show do Bodelé" subtitle="série de animação"/>
                <PortfolioItem link="/Portfolio/DanDans-Garden" img={DanDansGarden} icon={supremoIcon} active={supremoOn} title="DanDan's Garden" subtitle="criação de game"/>
+               <PortfolioItem link="/Portfolio/Drag-Deal" img={DragDeal} icon={supremoIcon} active={supremoOn} title="Drag Deal" subtitle="EM DESENVOLVIMENTO"/>
+               <PortfolioItem link="/Portfolio/Bodele-the-Homeless" img={BodeleHomeless} icon={supremoIcon} active={supremoOn} title="Bodelé the Homeless" subtitle="criação de game"/>
             </div>
             <h3>Por questão de confidencialidade,</h3>
             <h4>não podemos divulgar projetos realizados à terceiros</h4>

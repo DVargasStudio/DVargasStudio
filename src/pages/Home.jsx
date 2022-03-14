@@ -12,7 +12,6 @@ export default function Home({refHome, refAbout, refPacks, refContact}) {
       <Helmet>
         <title>D'Vargas Studio</title>
         <meta name="description" content="Somos uma produtora digital focada em realizar sonhos. Desde a elaboração do briefing até a estratégia de marketing, a D'Vargas pode lhe atender!"/>
-        <link rel="canonical" href="/" />
       </Helmet>
       <Cover/>
       <About refAbout={refAbout}/>
