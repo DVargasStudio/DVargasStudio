@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c7febc2.css",
-    "main.js": "/static/js/main.07d147d2.js",
-    "static/media/ManualSobrevivencia.mp4": "/static/media/ManualSobrevivencia.8a0ee0945d8c72a878b6.mp4",
+    "main.css": "/static/css/main.4db80d1d.css",
+    "main.js": "/static/js/main.e9dfbbea.js",
+    "static/media/ShowDoBodele.mp4": "/static/media/ShowDoBodele.43cb83b898794236d641.mp4",
+    "static/media/ManualSobrevivencia.mp4": "/static/media/ManualSobrevivencia.77883f8c56ee6c5eb5fd.mp4",
     "static/media/video1.mp4": "/static/media/video1.e61903e8df43c7ef255e.mp4",
-    "static/media/IdadeMedia.mp4": "/static/media/IdadeMedia.06e8523ec10428197ca3.mp4",
     "static/media/video2.mp4": "/static/media/video2.3ac07e12249c1f62f86d.mp4",
     "static/media/video3.mp4": "/static/media/video3.86598dc241b13c1bf8db.mp4",
-    "static/media/DanDansGarden.mp4": "/static/media/DanDansGarden.d0d68bf437f5cf7b9f48.mp4",
-    "static/media/ShowDoBodele.mp4": "/static/media/ShowDoBodele.e09a88c620bc9b493a4a.mp4",
+    "static/media/IdadeMedia.mp4": "/static/media/IdadeMedia.0d485014f7e61f1c005d.mp4",
+    "static/media/DanDansGarden.mp4": "/static/media/DanDansGarden.a7190695e7150d559006.mp4",
+    "static/media/BodeleTheHomeless.mp4": "/static/media/BodeleTheHomeless.96207f984c87b153d5e8.mp4",
     "static/media/DiaADiaIdadeMediaCover.png": "/static/media/DiaADiaIdadeMediaCover.e84367d620dd1abcd105.png",
     "static/media/ManualSobrevivenciaCover.png": "/static/media/ManualSobrevivenciaCover.61e91f7399db6cf1d355.png",
     "static/media/ShowBodeleCover.png": "/static/media/ShowBodeleCover.ecde177923ba19d03f84.png",
+    "static/media/DragDealCover.png": "/static/media/DragDealCover.6389dfc885f819c71058.png",
     "static/media/DanDansGardenCover.png": "/static/media/DanDansGardenCover.bec41f8bb8325fd4de3b.png",
+    "static/media/BodeleTheHomeless.png": "/static/media/BodeleTheHomeless.516192a5c1ffba4ff821.png",
     "static/media/Cover.webp": "/static/media/Cover.4d6c2574c8b2726b8340.webp",
     "static/media/Bodelé-1.webp": "/static/media/Bodelé-1.a3b87a691a66d5cc44be.webp",
+    "static/media/CorelDrawLogo.png": "/static/media/CorelDrawLogo.eaaf2fbbd90a35a339f9.png",
     "static/media/PhotoshopLogo.png": "/static/media/PhotoshopLogo.34f32702783fc6085bd7.png",
     "static/media/AfterEffectsLogo.png": "/static/media/AfterEffectsLogo.9583bed586a6950706a1.png",
     "static/media/PremiereLogo.png": "/static/media/PremiereLogo.f2e9e87757977e0d56a7.png",
     "static/media/KritaLogo.png": "/static/media/KritaLogo.eed6f7605122c0c7698d.png",
     "static/media/UnityLogo.png": "/static/media/UnityLogo.166c9e7ae0e43204a8b9.png",
     "static/media/Bison.ttf": "/static/media/Bison.586948d0258a1cde5270.ttf",
+    "static/media/MayaLogo.png": "/static/media/MayaLogo.30a9fe02e8b39e64fe00.png",
     "static/media/ReaperLogo.png": "/static/media/ReaperLogo.63c0baeada3c91092a74.png",
     "static/media/ClipStudioLogo.png": "/static/media/ClipStudioLogo.1173596b24126e07dc0c.png",
     "static/media/Supremo-Icon-L.svg": "/static/media/Supremo-Icon-L.0e2db22343789193ed7b07af20483970.svg",
@@ -42,11 +47,11 @@
     "static/media/Basico-Icon.svg": "/static/media/Basico-Icon.004d552069f85550c2ae1acbc9c3fcd0.svg",
     "index.html": "/index.html",
     "static/media/Border2.svg": "/static/media/Border2.58df86831d7e99902dee305ec318d971.svg",
-    "main.9c7febc2.css.map": "/static/css/main.9c7febc2.css.map",
-    "main.07d147d2.js.map": "/static/js/main.07d147d2.js.map"
+    "main.4db80d1d.css.map": "/static/css/main.4db80d1d.css.map",
+    "main.e9dfbbea.js.map": "/static/js/main.e9dfbbea.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c7febc2.css",
-    "static/js/main.07d147d2.js"
+    "static/css/main.4db80d1d.css",
+    "static/js/main.e9dfbbea.js"
   ]
 }
