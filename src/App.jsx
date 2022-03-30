@@ -21,6 +21,7 @@ import IdadeMedia from "./pages/PortfolioPages/IdadeMedia";
 import ShowBodele from "./pages/PortfolioPages/ShowBodele";
 import DragDeal from "./pages/PortfolioPages/DragDeal";
 import BodeleHomeless from "./pages/PortfolioPages/BodeleHomeless";
+import GoldenStars from "./pages/PortfolioPages/GoldenStars";
 
 function App() {
   const [menuOpen,SetMenuOpen ] = useState(false);
@@ -50,6 +51,7 @@ function App() {
           <Route path="/Portfolio/DanDans-Garden" element={<DanDansGarden refHeader={headerRef}/>}/>
           <Route path="/Portfolio/Drag-Deal" element={<DragDeal refHeader={headerRef}/>}/>
           <Route path="/Portfolio/Bodele-the-Homeless" element={<BodeleHomeless refHeader={headerRef}/>}/>
+          <Route path="/Portfolio/Golden-Stars" element={<GoldenStars refHeader={headerRef}/>}/>
         </Routes>
 
         <Footer/>

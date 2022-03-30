@@ -16,6 +16,7 @@ import ManualSobrevivencia from './../assets/imgs/ManualSobrevivenciaCover.png'
 import DanDansGarden from './../assets/imgs/DanDansGardenCover.png'
 import DragDeal from './../assets/imgs/DragDealCover.png';
 import BodeleHomeless from './../assets/imgs/BodeleTheHomeless.png'
+import GoldenStars from './../assets/imgs/GoldenStars.png'
 
 import Header from "./../components/header/Header"
 import PortfolioItem from "./../components/portfolio/PortfolioItem"
@@ -47,6 +48,7 @@ export default function Portfolio({refHeader}) {
             <div className="Portfolio-Itens">
                <PortfolioItem link="/Portfolio/Dia-a-Dia-Idade-Media" img={IdadeMedia} icon={supremoIcon} active={supremoOn} title="Dia a dia na idade média" subtitle="série de animação"/>
                <PortfolioItem link="/Portfolio/Manual-do-Sobrevivente" img={ManualSobrevivencia} icon={basicoIcon} active={basicoOn} title="Manual de ultra sobrevivência" subtitle="série de animação"/>
+               <PortfolioItem link="/Portfolio/Golden-Stars" img={GoldenStars} icon={supremoIcon} active={supremoOn} title="Golden Stars" subtitle="App & canal Youtube"/>
                <PortfolioItem link="/Portfolio/Show-do-Bodele" img={ShowBodele} icon={avancadoIcon} active={avancadoOn} title="Show do Bodelé" subtitle="série de animação"/>
                <PortfolioItem link="/Portfolio/DanDans-Garden" img={DanDansGarden} icon={supremoIcon} active={supremoOn} title="DanDan's Garden" subtitle="criação de game"/>
                <PortfolioItem link="/Portfolio/Drag-Deal" img={DragDeal} icon={supremoIcon} active={supremoOn} title="Drag Deal" subtitle="EM DESENVOLVIMENTO"/>
