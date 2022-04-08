@@ -44,9 +44,9 @@ export default function DragDeal({refHeader}) {
         </div>
 
       <h2>Em Breve</h2>
-      <ReactPlayer url={video} width={"calc(100px + 35%)"} height="35%" pip={true} controls={true} className="PortfolioPages-Video"/>
+      <ReactPlayer url={video}width="60%" height="60%" pip={true} controls={true} className="PortfolioPages-Video"/>
       <p className='Center'>Para saber mais, clique no botão abaixo</p>
-      <a href="https://www.instagram.com/dragdeal_game/" target="_blank" rel="noreferrer"><h4 className='PortfolioPages-Button'>Ver Mais</h4></a>
+      <a href="https://www.instagram.com/dragdealgame/" target="_blank" rel="noreferrer"><h4 className='PortfolioPages-Button'>Ver Mais</h4></a>
     </div>
   )
 }

@@ -1,8 +1,10 @@
 import './portfolioPages.scss';
 
+import ReactPlayer from "react-player";
 import {Helmet} from 'react-helmet-async';
 
 import Header from './../../components/header/Header';
+import video from './../../assets/videos/GoldenStars.mp4'
 
 import imgCover from './../../assets/imgs/GoldenStars.png'
 import JavaScriptLogo from './../../assets/imgs/JavaScriptLogo.png'
@@ -39,7 +41,9 @@ export default function GoldenStars({refHeader}) {
           <p>As ferramentas utilizadas para esse projeto foram o JavaScript para a produção do App(Em Desenvolvimento), o Photoshop para criação e edição de imagens e fotos, o Premiere para edição de vídeo e o Reaper para a mixagem e edição sonora.</p>
         </div>
 
-      <p className='Center'>Para ver mais, clique no botão abaixo</p>
+      <h2>Video</h2>
+      <ReactPlayer url={video} width="60%" height="60%" pip={true} controls={true} className="PortfolioPages-Video"/>
+      <p className='Center'>Para saber mais, clique no botão abaixo</p>
       <a href="https://www.youtube.com/channel/UCutfJRaolgaLihsyam2U4hw" target="_blank" rel="noreferrer"><h4 className='PortfolioPages-Button'>Ver Mais</h4></a>
     </div>
   )
