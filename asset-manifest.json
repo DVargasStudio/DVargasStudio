@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5578b254.css",
-    "main.js": "/static/js/main.5c7ab4e9.js",
+    "main.js": "/static/js/main.9a7e687c.js",
     "static/media/ShowDoBodele.mp4": "/static/media/ShowDoBodele.43cb83b898794236d641.mp4",
     "static/media/ManualSobrevivencia.mp4": "/static/media/ManualSobrevivencia.77883f8c56ee6c5eb5fd.mp4",
     "static/media/video1.mp4": "/static/media/video1.e61903e8df43c7ef255e.mp4",
@@ -12,7 +12,7 @@
     "static/media/DragDeal.mp4": "/static/media/DragDeal.8594d122abbe7271bdbb.mp4",
     "static/media/DanDansGarden.mp4": "/static/media/DanDansGarden.a7190695e7150d559006.mp4",
     "static/media/BodeleTheHomeless.mp4": "/static/media/BodeleTheHomeless.96207f984c87b153d5e8.mp4",
-    "static/media/DragDealCover.png": "/static/media/DragDealCover.6389dfc885f819c71058.png",
+    "static/media/DragDealCover.png": "/static/media/DragDealCover.414716fe6c1348a316a7.png",
     "static/media/ShowBodeleCover.png": "/static/media/ShowBodeleCover.747d5e9aa6de6adbe8ac.png",
     "static/media/DiaADiaIdadeMediaCover.png": "/static/media/DiaADiaIdadeMediaCover.3cdb8fe80e7bde70d1c3.png",
     "static/media/ManualSobrevivenciaCover.png": "/static/media/ManualSobrevivenciaCover.6f0f252bde5be7e23fa1.png",
@@ -51,10 +51,10 @@
     "index.html": "/index.html",
     "static/media/Border2.svg": "/static/media/Border2.58df86831d7e99902dee305ec318d971.svg",
     "main.5578b254.css.map": "/static/css/main.5578b254.css.map",
-    "main.5c7ab4e9.js.map": "/static/js/main.5c7ab4e9.js.map"
+    "main.9a7e687c.js.map": "/static/js/main.9a7e687c.js.map"
   },
   "entrypoints": [
     "static/css/main.5578b254.css",
-    "static/js/main.5c7ab4e9.js"
+    "static/js/main.9a7e687c.js"
   ]
 }
